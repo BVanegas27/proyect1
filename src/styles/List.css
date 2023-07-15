@@ -1,0 +1,120 @@
+
+.list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-right: -15px; 
+    background-color: #f2f2f2; 
+    padding: 20px; 
+    border-radius: 5px; 
+  }
+
+  .filter-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #1a2c58;
+  }
+  
+  
+  .movie-card {
+    width: calc(25% - 15px); 
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box; 
+  }
+  
+  .movie-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .movie-title {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 992px) {
+    .movie-card {
+      width: calc(33.33% - 15px); 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .movie-card {
+      width: calc(50% - 15px); 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .movie-card {
+      width: 100%; 
+    }
+  }
+  
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button-container button:hover {
+    background-color: #dcdcdc;
+  }
+
+  .search-form {
+    margin-bottom: 20px;
+  }
+  
+  .search-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    font-size: 14px;
+  }
+  
+  .search-form button {
+    padding: 8px 16px;
+    background-color: #1a2c58;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-form button:hover {
+    background-color: #0e1b36;
+  }
+
+  .logout-button {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 8px 16px;
+    background-color: #1a2c58;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #0e1b36;
+  }
+  
